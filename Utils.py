@@ -30,7 +30,7 @@ def load_more_comments(load_comments_class, driver):
         print('<',end='',flush=True)
         while True:
             load_more_button.click()
-            sleep(5)
+            sleep(8)
             # 5 second sleep works great for medium-speed net...you can increase if this time seems too less and program finishes before loading all comments....you may decrease till 3 if you have fast internet speed
             try:
                 load_more_button = driver.find_element_by_class_name(load_comments_class)
