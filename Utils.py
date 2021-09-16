@@ -71,7 +71,7 @@ def extract_time(time):
     if mode=='s':
         return (num)+" second(s)"
     elif mode=='m':
-       return (num)+" month(s)"
+       return (num)+" minute(s)"
     elif mode=='h':
        return (num)+" hour(s)"
     elif mode=='d':
