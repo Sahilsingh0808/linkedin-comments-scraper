@@ -21,10 +21,7 @@ def check_post_url(post_url):
             exit()
 
 def login_details():
-    username = input('Enter your email registered in LinkedIn : ')
-    password = getpass('Enter your password : ')
-
-    return username, password
+    return 'sahil08062001@gmail.com', 'dummytest69'
 
 def load_more_comments(load_comments_class, driver):
     try:

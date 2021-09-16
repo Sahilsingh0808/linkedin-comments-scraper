@@ -7,11 +7,14 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import csv
 
-post_url = check_post_url(Config.post_url)
+print('\n')
+post_url1=input("Enter the post url: ")
+post_url = check_post_url(post_url1)
+
 
 ##### Writer csv
 writer = csv.writer(open(Config.file_name, 'w', encoding='utf-8'))
-writer.writerow(['Name','Email','Comment'])
+writer.writerow(['Name','Profile Heading','Email','Comment'])
 
 linkedin_username, linkedin_password = login_details()
 

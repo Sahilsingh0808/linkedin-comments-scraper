@@ -10,4 +10,4 @@ file_name = 'comments_data.csv'
 # post_url = 'https://www.linkedin.com/posts/aimlindia_aimc-resources-giveaway-activity-6689061814338232320-O6IQ/'
 # urls which I usually tested with..You can use them as demo
 
-post_url = ''
+post_url = 'https://www.linkedin.com/feed/update/urn:li:activity:6842048395276804096/'
