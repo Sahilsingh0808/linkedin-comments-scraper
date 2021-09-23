@@ -22,7 +22,7 @@ def check_post_url(post_url):
             exit()
 
 def login_details():
-    return 'sahil08062001@gmail.com', 'dummytest69'
+    return 'sahilsingh08062001@gmail.com', 'donttryyourluckheredude77'
 
 def load_more_comments(load_comments_class, driver):
     try:
@@ -30,7 +30,7 @@ def load_more_comments(load_comments_class, driver):
         print('<',end='',flush=True)
         while True:
             load_more_button.click()
-            sleep(8)
+            sleep(10)
             # 5 second sleep works great for medium-speed net...you can increase if this time seems too less and program finishes before loading all comments....you may decrease till 3 if you have fast internet speed
             try:
                 load_more_button = driver.find_element_by_class_name(load_comments_class)

@@ -8,7 +8,6 @@ from selenium.webdriver.support.select import Select
 import pandas as pd
 from webdriver_manager.chrome import ChromeDriverManager
 import csv
-import os
 
 print('\n')
 post_url1=input("Enter the post url: ")
@@ -37,7 +36,7 @@ sleep(0.5)
 
 sign_in_button = driver.find_element_by_xpath('//*[@type="submit"]')
 sign_in_button.click()
-sleep(40)
+sleep(30)
 
 driver.get(post_url)
 sleep(10)
