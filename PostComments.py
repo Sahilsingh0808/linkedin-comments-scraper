@@ -59,9 +59,9 @@ names = [name.text.split('\n')[0] for name in names]
 
 write_data2csv(names, headlines, emails, comments, writer)
 csvData = pd.read_csv('comments_data.csv', header=None, delim_whitespace=True)
-csvData = csvData.dropna()
-csvData.iloc[::-1]
-csvData.to_csv('comments_data.csv', index=False)
+# csvData = csvData.dropna()
+# csvData.iloc[::-1]
+# csvData.to_csv('comments_data.csv', index=False)
 
 
 end = time()       # Finishing Time
