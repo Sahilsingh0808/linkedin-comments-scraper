@@ -23,7 +23,7 @@ def check_post_url(post_url):
 
 
 def login_details():
-   return 'sahilsingh08062001@gmail.com', 'donttryyourluckheredude77'
+   return null,null
 
 
 def load_more_comments(load_comments_class, driver):
