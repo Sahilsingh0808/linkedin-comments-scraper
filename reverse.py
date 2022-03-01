@@ -17,4 +17,4 @@ email.reverse()
 comment.reverse()
 df1 = pd.DataFrame(list(zip(name, heading, email, comment)), columns=['Name', 'Profile Heading', 'Email', 'Comment'])
                   
-df1.to_csv('comments.csv', index=False)
+df1.to_excel('comments.xlsx', index=False)

@@ -1,6 +1,5 @@
 import Config           # Own module imports
 from Utils import *
-
 from time import time       # Other imports
 from time import sleep
 from selenium import webdriver
@@ -24,18 +23,18 @@ driver.get('https://www.linkedin.com')
 
 username = driver.find_element_by_name(Config.username_name)
 username.send_keys(linkedin_username)
-sleep(0.5)
+sleep(1)
 
 password = driver.find_element_by_name(Config.password_name)
 password.send_keys(linkedin_password)
-sleep(0.5)
+sleep(1)
 
 sign_in_button = driver.find_element_by_xpath('//*[@type="submit"]')
 sign_in_button.click()
-sleep(30)
+sleep(20)
 
 driver.get(post_url)
-sleep(10)
+sleep(20)
 
 print('Loading comments :', end=' ', flush=True)
 load_more_comments(Config.load_comments_class, driver)
