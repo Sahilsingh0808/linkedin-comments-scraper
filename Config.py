@@ -12,4 +12,4 @@ dropdown_class = 'comments-sort-order-toggle__trigger'
 # post_url = 'https://www.linkedin.com/posts/aimlindia_aimc-resources-giveaway-activity-6689061814338232320-O6IQ/'
 # urls which I usually tested with..You can use them as demo
 
-post_url= 'https://www.linkedin.com/posts/ankit-kumar-40a1981a8_hiring-recruitment-opportunity-activity-6901754594859335680-Df3P/'
+post_url= 'https://www.linkedin.com/posts/ankit-kumar-40a1981a8_hiring-recruitment-opportunity-activity-6939832609199783936-kmrZ?utm_source=linkedin_share&utm_medium=member_desktop_web'
